@@ -5,27 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="page.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
   <title>Land page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
   <div class="logo">
-    <img src="./images/logo.svg" alt="">
+    <img src="./images/logo.svg" alt="logo">
   </div>
   <div class="nav-bar">
-    <a href="#" class="toggle-btn">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
+    <a href="#" class="toggle-btn" img src="./images/icon-menu.svg"></a>
     <ul>
-     <li id="feature"><a href="#features">Features</a></li>
+    <div> <li id="feature"><a href="#features"><span>Features</span> 
+      <img src ="./images/icon-arrow-down.svg" ></a></li></div>
       <div class="dropdown-content">
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
       </div>
-      <li id="company"><a href="#company">Company</a></li>
+      <div> <li id="company"><a href="#features"><span>company</span> 
+        <img src ="./images/icon-arrow-down.svg" ></a></li></div>
        <div class="dropdown-content">
         <a href="#">Link 1</a>
         <a href="#">Link 2</a>
@@ -54,7 +60,9 @@
       </div>
     </div>
       <div id="box-2">
-        <img class="big-image" src="./images/image-hero-desktop.png">
+        <img class="big-image1" src="./images/image-hero-desktop.png">
+        <img class="big-image2" src="./images/image-hero-mobile.png">
       </div>
+  </div>
 </body>
 </html>
